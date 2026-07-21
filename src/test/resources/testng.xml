@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuiteTicketrQA" verbose="1">
+    <test name="FlujoCompletoTicketr">
+        <classes>
+            <class name="tests.TC01_RegistroTest"/>
+            <class name="tests.TC02_LoginTest"/>
+            <class name="tests.TC03_CompraBoletosTest"/>
+            <class name="tests.TC04_MisComprasTest"/>
+        </classes>
+    </test>
+</suite>
